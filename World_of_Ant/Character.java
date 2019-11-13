@@ -2,7 +2,7 @@
 /**
  * Décrivez votre classe Character ici.
  *
- * @author (votre nom)
+ * @author G8
  * @version (un numéro de version ou une date)
  */
 public class Character
@@ -12,6 +12,7 @@ public class Character
 
     /**
      * Constructeur d'objets de classe Character
+     * Constructe the player and give it a name who is a string
      */
     public Character(String cName)
     {
@@ -19,15 +20,12 @@ public class Character
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôf4tre
-     *
-     * @param  y   un paramètre pour cette méthode
-     * @param  x   un autre paramètre
-     * @return     la somme des deux paramètres
+     * return the name of the character
+     * @return the name of the character who is a String
      */
     public String getName()
     {
-        return "";
+        return name;
     }
 
 }

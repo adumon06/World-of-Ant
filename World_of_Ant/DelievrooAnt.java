@@ -2,7 +2,7 @@
 /**
  * Décrivez votre classe Delievroo ici.
  *
- * @author (votre nom)
+ * @author G8
  * @version (un numéro de version ou une date)
  */
 public class DelievrooAnt extends Player
@@ -13,6 +13,7 @@ public class DelievrooAnt extends Player
 
     /**
      * Constructeur d'objets de classe Delievroo
+     * give the natural hp(honor point)
      */
     public DelievrooAnt(String dName)
     {
@@ -21,10 +22,7 @@ public class DelievrooAnt extends Player
     }
 
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * allow the delivery ant to hit the Stolen Ant
      */
     public void hitStolette()
     {
@@ -33,26 +31,23 @@ public class DelievrooAnt extends Player
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * modify the hp
+     * cannot pass the hp bellow 0 or more that 100
+     * @parameter thehp represent how much the delievroo ant will lose or gain hp
      */
-    public void setHp()
+    public void setHp(int thehp)
     {
         // Insérez votre code ici
         
     }  
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * return the hp
+     * @return the hp of the stolen ant who is a integer
      */
-    public void getHp()
+    public int getHp()
     {
         // Insérez votre code ici
-        
+        return hp;
     } 
 }
