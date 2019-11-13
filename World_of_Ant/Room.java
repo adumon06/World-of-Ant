@@ -3,10 +3,13 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Set;
 /**
- * Décrivez votre classe Room ici.
+ * Room is the class that represents each accessible room in the game
+ * There is two levels : level up and level down.
+ * Level up represents the surface (human houses)
+ * and the level down represents ants gallery.
  *
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @author Group 8 (Angélique and Dylan)
+ * @version 13/11/2019
  */
 public class Room
 {
@@ -18,31 +21,26 @@ public class Room
     private String description;
     
     /**
-     * Constructeur d'objets de classe Room
+     * Adds a description to the room
+     * @param rDescription is a description of the room.
      */
     public Room(String rDescription)
     {
-       exits = new HashMap<>(); 
+       //exits = new HashMap<>();
        description = rDescription;
     }
 
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     * displays the possible exits in the room.
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
      */
-    public Room getExit(String direction)
+    public void getExit()
     {
-        // Insérez votre code ici
-        return exits.get(direction);
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     * displays the description of the room
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
      */
     public void getDescr()
     {
@@ -50,21 +48,18 @@ public class Room
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     * displays the available items in the room.
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
      */
-    public void getItem(String direction)
+    public void getItem()
     {
         
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     * adds an item
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     *@param anItem The item added in the room
      */
     public void addItem(Item anItem)
     {
@@ -72,10 +67,9 @@ public class Room
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     * remove an item from the room (When it's picked up by an ant).
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * @param anItem the item removed in the room
      */
     public void removeItem(Item anItem)
     {
