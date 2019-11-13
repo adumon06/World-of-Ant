@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DeliverooTest
+comment0.text=\r\n\ \r\n
+comment1.params=
+comment1.target=DeliverooTest()
+comment1.text=\r\n\ Constructeur\ de\ la\ classe-test\ DeliverooTest\r\n
+comment2.params=
+comment2.target=void\ setUpDel()
+comment2.text=\r\n\ Met\ en\ place\ les\ engagements.\r\n\r\n\ M\u00E9thode\ appel\u00E9e\ avant\ chaque\ appel\ de\ m\u00E9thode\ de\ test.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=4

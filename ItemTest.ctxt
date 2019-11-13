@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ItemTest
+comment0.text=\r\n\ Classe-test\ ItemTest.\r\n\r\n\ @AmbreDumontet\r\n\ @13/11/2019\r\n\ This\ is\ a\ class\ test\ for\ the\ Item\ class\r\n
+comment1.params=
+comment1.target=ItemTest()
+comment1.text=\r\n\ Default\ constructor\ of\ the\ test\ class\ ItemTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Set\ up\ the\ test\ fixture\r\n\ Called\ before\ every\ test\ case\ method\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ text\ fixture\r\n\ \r\n\ Called\ after\ every\ test\ case\ method\r\n
+numComments=4

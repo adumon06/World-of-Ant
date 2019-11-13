@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TreasureBoxTest
+comment0.text=\r\n\ Classe-test\ TreasureBoxTest.\r\n\r\n\ @Ad\r\n\ @13/11/2019\r\n\r\n
+comment1.params=
+comment1.target=TreasureBoxTest()
+comment1.text=\r\n\ Default\ constructor\ of\ the\ test\ class\ TreasureBox\r\n
+comment2.params=
+comment2.target=void\ setUpTreasure()
+comment2.text=\r\n\ Set\ up\ the\ test\ fixture\r\n\ Called\ before\ every\ test\ case\ method\r\n
+numComments=3
