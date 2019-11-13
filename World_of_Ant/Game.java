@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 /**
- * Décrivez votre classe Game ici.
+ * Class Game 
+ * Contains the main that allows to the user to start a game
  *
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @author Group8
+ * @version 13/11/2019
  */
 public class Game
 {
@@ -15,7 +16,7 @@ public class Game
     private int count;
 
     /**
-     * Constructeur d'objets de classe Game
+     * Constructor of the Game
      */
     public Game()
     {
@@ -23,34 +24,26 @@ public class Game
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * Method to choose the player : deliveroo or stolen ant
+     * 
+     * @return type : "deliver" for deliveroo ant 
+     *                "stolen" for stolen ant    
      */
-    public void main()
+    public String choosePlayer()
     {
-        
+      return "";
     }
     
     /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     * Method that give if the player win or loose
+     * It will check on the bag of the player : 
+     * if the deliveroo ant have more than 5 deliveries on the bag 
+     * or if the stolent ant have less than 5 deliveries on the bag 
+     * the player is a looser !!
      *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
+     * @param  ant type of player (deliveroo or stolen)
      */
-    public void choosePlayer()
-    {
-        
-    }
-    
-    /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
-     */
-    public void result()
+    public void result(Player ant)
     {
         
     }
