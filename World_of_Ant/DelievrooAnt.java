@@ -9,15 +9,15 @@ public class DelievrooAnt extends Player
 
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int HP;
+    private int hp;
 
     /**
      * Constructeur d'objets de classe Delievroo
      */
-    public DelievrooAnt()
+    public DelievrooAnt(String dName)
     {
-        // initialisation des variables d'instance
-        HP = 100;
+        super(dName);
+        hp = 100;
     }
 
     /**
@@ -31,4 +31,28 @@ public class DelievrooAnt extends Player
         // Insérez votre code ici
         
     }
+    
+    /**
+     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     *
+     * @param  y   le paramètre de la méthode
+     * @return     la somme de x et de y
+     */
+    public void setHp()
+    {
+        // Insérez votre code ici
+        
+    }  
+    
+    /**
+     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     *
+     * @param  y   le paramètre de la méthode
+     * @return     la somme de x et de y
+     */
+    public void getHp()
+    {
+        // Insérez votre code ici
+        
+    } 
 }

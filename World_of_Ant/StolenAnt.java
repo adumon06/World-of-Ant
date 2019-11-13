@@ -8,15 +8,15 @@
 public class StolenAnt extends Player
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int x;
+    private int vp;
 
     /**
      * Constructeur d'objets de classe Stolen
      */
-    public Stolen()
+    public StolenAnt(String sName)
     {
-        // initialisation des variables d'instance
-        x = 0;
+        super(sName);
+        vp = 100;
     }
 
     /**
@@ -25,9 +25,21 @@ public class StolenAnt extends Player
      * @param  y   le paramètre de la méthode
      * @return     la somme de x et de y
      */
-    public int sampleMethod(int y)
+    public void setVp()
     {
         // Insérez votre code ici
-        return x + y;
+        
+    }  
+    
+    /**
+     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     *
+     * @param  y   le paramètre de la méthode
+     * @return     la somme de x et de y
+     */
+    public void getVp()
+    {
+        // Insérez votre code ici
+        
     }
 }

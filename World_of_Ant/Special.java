@@ -8,15 +8,14 @@
 public class Special extends Item
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int x;
+    private int bonus;
 
     /**
      * Constructeur d'objets de classe Special
      */
-    public Special()
+    public Special(String sName)
     {
-        // initialisation des variables d'instance
-        x = 0;
+        super(sName);
     }
 
     /**
@@ -25,9 +24,8 @@ public class Special extends Item
      * @param  y   le paramètre de la méthode
      * @return     la somme de x et de y
      */
-    public int sampleMethod(int y)
+    public void setPoints()
     {
-        // Insérez votre code ici
-        return x + y;
+       
     }
 }

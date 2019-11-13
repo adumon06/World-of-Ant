@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.List;
 /**
  * Décrivez votre classe Ant ici.
  *
@@ -8,15 +9,17 @@
 public class Player extends Character
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private listArray Bag;
-
+    private List<Item> bag;
+    private int sizeBag;
+    
     /**
      * Constructeur d'objets de classe Ant
      */
-    public Ant()
+    public Player(String pName)
     {
-        // initialisation des variables d'instance
-        
+        super(pName);
+        bag = new ArrayList<Item>();
+        sizeBag = 20; 
     }
 
     /**
@@ -31,7 +34,7 @@ public class Player extends Character
       
     }
     
-        /**
+    /**
      * Un exemple de méthode - remplacez ce commentaire par le vôtre
      *
      * @param  y   le paramètre de la méthode

@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.List;
 /**
  * Décrivez votre classe Treasure_box ici.
  *
@@ -8,26 +9,14 @@
 public class TreasureBox extends Item
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int x;
+    private List<Key> key;
+    private List<Special> special;
 
     /**
      * Constructeur d'objets de classe Treasure_box
      */
-    public Treasure_box()
+    public TreasureBox(String tName)
     {
-        // initialisation des variables d'instance
-        x = 0;
-    }
-
-    /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
-     */
-    public int sampleMethod(int y)
-    {
-        // Insérez votre code ici
-        return x + y;
+        super(tName);
     }
 }

@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.List;
 /**
  * Décrivez votre classe Door ici.
  *
@@ -8,15 +9,14 @@
 public class Door
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private int x;
-
+    private List<Room> room;
+    private Key key; 
     /**
      * Constructeur d'objets de classe Door
      */
     public Door()
     {
-        // initialisation des variables d'instance
-        x = 0;
+        
     }
 
     /**
@@ -25,9 +25,19 @@ public class Door
      * @param  y   le paramètre de la méthode
      * @return     la somme de x et de y
      */
-    public int sampleMethod(int y)
+    public void unLock(Key key)
     {
-        // Insérez votre code ici
-        return x + y;
+       
+    }
+    
+    /**
+     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     *
+     * @param  y   le paramètre de la méthode
+     * @return     la somme de x et de y
+     */
+    public void cross()
+    {
+       
     }
 }

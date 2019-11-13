@@ -13,20 +13,21 @@ public class Character
     /**
      * Constructeur d'objets de classe Character
      */
-    public Character()
+    public Character(String cName)
     {
-        name = "";
+        name = cName;
+    }
+    
+    /**
+     * Un exemple de méthode - remplacez ce commentaire par le vôf4tre
+     *
+     * @param  y   un paramètre pour cette méthode
+     * @param  x   un autre paramètre
+     * @return     la somme des deux paramètres
+     */
+    public String getName()
+    {
+        return "";
     }
 
-    // /**
-     // * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     // *
-     // * @param  y   le paramètre de la méthode
-     // * @return     la somme de x et de y
-     // */
-    // public int sampleMethod(int y)
-    // {
-        // // Insérez votre code ici
-        // return x + y;
-    // }
 }

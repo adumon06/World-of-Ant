@@ -15,7 +15,7 @@ public class Human extends Character
      */
     public Human()
     {
-        // initialisation des variables d'instance
+        super("Standard");
         
     }
 
