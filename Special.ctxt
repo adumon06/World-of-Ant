@@ -6,5 +6,5 @@ comment1.target=Special(java.lang.String)
 comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Special\r\n
 comment2.params=
 comment2.target=void\ setPoints()
-comment2.text=\r\n\ Modify\ the\ hp\ of\ the\ player\r\n
+comment2.text=\r\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\r\n\r\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\r\n\ @return\ \ \ \ \ la\ somme\ de\ x\ et\ de\ y\r\n
 numComments=3

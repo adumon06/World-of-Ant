@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StolenAnt
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ Stolen\ ici.\r\n\r\n\ @author\ G8\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
+comment1.params=sName
+comment1.target=StolenAnt(java.lang.String)
+comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ StolenAnt\r\n\ give\ the\ natural\ vp(vital\ point)\r\n
+comment2.params=thevp
+comment2.target=void\ setVp(int)
+comment2.text=\r\n\ modify\ the\ vp\r\n\ cannot\ pass\ the\ vp\ bellow\ 0\ or\ more\ that\ 100\r\n\ @parameter\ thevp\ represent\ how\ much\ the\ stolen\ ant\ will\ lose\ or\ gain\ vp\r\n
+comment3.params=
+comment3.target=int\ getVp()
+comment3.text=\r\n\ return\ the\ vp\r\n\ @return\ the\ vp\ of\ the\ stolen\ ant\ who\ is\ a\ integer\r\n
+numComments=4

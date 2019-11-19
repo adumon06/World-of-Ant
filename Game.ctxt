@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Class\ Game\ \r\n\ Contains\ the\ main\ that\ allows\ to\ the\ user\ to\ start\ a\ game\r\n\r\n\ @author\ Group8\r\n\ @version\ 13/11/2019\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Constructor\ of\ the\ Game\r\n
+comment2.params=
+comment2.target=java.lang.String\ choosePlayer()
+comment2.text=\r\n\ Method\ to\ choose\ the\ player\ \:\ deliveroo\ or\ stolen\ ant\r\n\ \r\n\ @return\ type\ \:\ "deliver"\ for\ deliveroo\ ant\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ "stolen"\ for\ stolen\ ant\ \ \ \ \r\n
+comment3.params=ant
+comment3.target=void\ result(Player)
+comment3.text=\r\n\ Method\ that\ give\ if\ the\ player\ win\ or\ loose\r\n\ It\ will\ check\ on\ the\ bag\ of\ the\ player\ \:\ \r\n\ if\ the\ deliveroo\ ant\ have\ more\ than\ 5\ deliveries\ on\ the\ bag\ \r\n\ or\ if\ the\ stolent\ ant\ have\ less\ than\ 5\ deliveries\ on\ the\ bag\ \r\n\ the\ player\ is\ a\ looser\ \!\!\r\n\r\n\ @param\ \ ant\ type\ of\ player\ (deliveroo\ or\ stolen)\r\n
+numComments=4

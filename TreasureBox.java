@@ -1,16 +1,17 @@
 import java.util.ArrayList;
 import java.util.List;
 /**
- * Treasure box of the game that are in the gallery.
+ * Décrivez votre classe Treasure_box ici.
  *
- * @Ad
- * @13/11/2019
+ * @author (votre nom)
+ * @version (un numéro de version ou une date)
  */
 public class TreasureBox extends Item
 {
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
-    private List<Key> key;
+    private List<Key> keys;
     private List<Special> special;
+    private Key key;
 
     /**
      * Constructeur d'objets de classe Treasure_box

@@ -6,20 +6,18 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Classe-test KeyTest.
- *
- *@Ad
- *@
+ * 
  */
-public class KeyTest
+public class DeliveryTest
 {
-    private Door door;
-    private Key key;
+   
+    private Room goal;
+    private Delivery del;
 
     /**
-     * Constructeur de la classe-test KeyTest
+     * Constructeur de la classe-test DeliverooTest
      */
-    public KeyTest()
+    public DeliveryTest()
     {
     }
 
@@ -29,9 +27,10 @@ public class KeyTest
      * Méthode appelée avant chaque appel de méthode de test.
      */
     @Before
-    public void setUpKey() // throws java.lang.Exception
+    public void setUpDel() // throws java.lang.Exception
     {
-        key = new Key("");
+        // Initialisez ici vos engagements
+        del = new Delivery("");
     }
 
     /**
@@ -44,5 +43,3 @@ public class KeyTest
     {
     }
 }
-
-
