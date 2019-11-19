@@ -1,13 +1,13 @@
 
 /**
- * Class item contains all the item of the game
+ * Décrivez votre classe Item ici.
  *
- * @FannyBarbe
- * @13/11/2019
+ * @author (votre nom)
+ * @version (un numéro de version ou une date)
  */
 public class Item
 {
-    // variable of the item class
+    // variables d'instance - remplacez l'exemple qui suit par le vôtre
     private String name;
 
     /**

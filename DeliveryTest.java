@@ -8,16 +8,16 @@ import org.junit.Test;
 /**
  * 
  */
-public class DeliverooTest
+public class DeliveryTest
 {
    
     private Room goal;
-    private Deliveroo del;
+    private Delivery del;
 
     /**
      * Constructeur de la classe-test DeliverooTest
      */
-    public DeliverooTest()
+    public DeliveryTest()
     {
     }
 
@@ -30,7 +30,7 @@ public class DeliverooTest
     public void setUpDel() // throws java.lang.Exception
     {
         // Initialisez ici vos engagements
-        del = new Deliveroo("");
+        del = new Delivery("");
     }
 
     /**

@@ -19,7 +19,10 @@ public class Special extends Item
     }
 
     /**
-     * Modify the hp of the player
+     * Un exemple de méthode - remplacez ce commentaire par le vôtre
+     *
+     * @param  y   le paramètre de la méthode
+     * @return     la somme de x et de y
      */
     public void setPoints()
     {

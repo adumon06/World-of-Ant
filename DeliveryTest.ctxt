@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=DeliverooTest
+comment0.target=DeliveryTest
 comment0.text=\r\n\ \r\n
 comment1.params=
-comment1.target=DeliverooTest()
+comment1.target=DeliveryTest()
 comment1.text=\r\n\ Constructeur\ de\ la\ classe-test\ DeliverooTest\r\n
 comment2.params=
 comment2.target=void\ setUpDel()

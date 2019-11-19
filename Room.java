@@ -34,17 +34,18 @@ public class Room
      * displays the possible exits in the room.
      *
      */
-    public void getExit()
+    public String getExit()
     {
+        return "";
     }
     
     /**
      * displays the description of the room
      *
      */
-    public void getDescr()
+    public String getDescr()
     {
-        
+        return "";        
     }
     
     /**
@@ -76,3 +77,5 @@ public class Room
         
     }
 }
+
+

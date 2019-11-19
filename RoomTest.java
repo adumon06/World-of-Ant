@@ -32,8 +32,30 @@ public class RoomTest
     @Before
     public void setUp()
     {
-        cuisine = new Room("Cuisine");
+       Room cuisine = new Room("Cuisine"); //create a room to test all the method
     }
+    
+    
+    /**
+     * Test the exits of the room
+     *
+     * .
+     */
+    @Test
+    public void exitTest()
+    {
+        assertEquals("Cuisine", cuisine.getExit());
+    }
+    
+    /**
+     * Test the description of the room
+     */
+    @Test
+    public void descripTest()
+    {
+        assertEquals("Cuisine", cuisine.getDescr());
+    }
+    
     
     /**
      * Tears down the test fixture.
@@ -45,3 +67,5 @@ public class RoomTest
     {
     }
 }
+
+

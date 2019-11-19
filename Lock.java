@@ -1,4 +1,3 @@
-
 /**
  * Décrivez votre interface Lock ici.
  *
@@ -16,3 +15,4 @@ public interface Lock
      */
     void unlock();
 }
+
