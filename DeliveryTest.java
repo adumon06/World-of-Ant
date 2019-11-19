@@ -7,39 +7,26 @@ import org.junit.Test;
 
 /**
  * 
+ * @author Group 8 - Marion Guernoté, Dylan Mielot, Fanny Barbe, Alix Nagot, Ambre Dumontet, Angélique Gombert, Thibault Crouzet
+ * @version 19/11/2019
  */
 public class DeliveryTest
 {
    
     private Room goal;
-    private Delivery del;
+    private Delivery delivery;
 
-    /**
-     * Constructeur de la classe-test DeliverooTest
+    
+     /**
+     * Test that an item is correctly initialised ().
      */
-    public DeliveryTest()
+    @Test
+    public void testDel()
     {
+        Room room = new Room("Room 1");
+        delivery = new Delivery("Toto", room);
+        assertEquals(room, delivery.getGoal());
     }
+    
 
-    /**
-     * Met en place les engagements.
-     *
-     * Méthode appelée avant chaque appel de méthode de test.
-     */
-    @Before
-    public void setUpDel() // throws java.lang.Exception
-    {
-        // Initialisez ici vos engagements
-        del = new Delivery("");
-    }
-
-    /**
-     * Tears down the test fixture.
-     *
-     * Called after every test case method.
-     */
-    @After
-    public void tearDown()
-    {
-    }
 }

@@ -6,8 +6,8 @@ import org.junit.Test;
 /**
  * Classe-test SpecialTest.
  *
- * @Ad
- * @13/11/2019
+ * @author Group 8 - Marion Guernoté, Dylan Mielot, Fanny Barbe, Alix Nagot, Ambre Dumontet, Angélique Gombert, Thibault Crouzet
+ * @version 19/11/2019
  *
  */
 public class SpecialTest
@@ -17,34 +17,16 @@ public class SpecialTest
     private Special spe;
 
     /**
-     * Constructeur de la classe-test SpecialTest
+     * Test if getters work correctly.
      */
-    public SpecialTest()
+    @Test
+    public void testSpecial()
     {
-    }
-
-    /**
-     * Set up the test fixture
-     * Called before every test case method
-     */
-     @Before
-     public void setUpSpecial() 
-    {
-       spe = new Special("");      
-       
+        bonus = 5;
+        spe = new Special("Toto", bonus);
+        assertEquals(bonus, spe.getBonus());
     }
     
-    /**
-     * Tears down the test fixture.
-     *
-     * Called after every test case method.
-     */
-    @After
-    public void tearDown()
-    {
-    }
-    
-    
-
+   
     
 }

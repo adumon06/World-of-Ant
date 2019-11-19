@@ -1,50 +1,29 @@
-
-
 import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * Classe-test ItemTest.
- *
- * @AmbreDumontet
- * @13/11/2019
+ /**
  * This is a class test for the Item class
+ *
+ *@author Group 8 - Marion Guernoté, Dylan Mielot, Fanny Barbe, Alix Nagot, Ambre Dumontet, Angélique Gombert, Thibault Crouzet
+ * @version 19/11/2019
  */
+
 public class ItemTest
 {
+    private Item item;
     
-    Item item;
-
-    /**
-     * Default constructor of the test class ItemTest
-     */
-    public ItemTest()
-    {
-        
-    }
-
-    /**
-     * Set up the test fixture
-     * Called before every test case method
-     */
-     @Before
-     public void setUp() 
-    {
-       item = new Item(""); 
-    }
     
-    /**
-     * Tears down the text fixture
-     * 
-     * Called after every test case method
+     /**
+     * Test that an item is correctly initialised (name).
      */
-    @After
-    public void tearDown()
+    @Test
+    public void testName()
     {
+        item = new Item("Toto");
+        assertEquals("Toto", item.getName());
     }
-    
 
 } 
    

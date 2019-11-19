@@ -2,8 +2,8 @@
 /**
  * Décrivez votre classe Special ici.
  *
- * @author (votre nom)
- * @version (un numéro de version ou une date)
+ * @author Group 8 - Marion Guernoté, Dylan Mielot, Fanny Barbe, Alix Nagot, Ambre Dumontet, Angélique Gombert, Thibault Crouzet
+ * @version 19/11/2019
  */
 public class Special extends Item
 {
@@ -13,19 +13,14 @@ public class Special extends Item
     /**
      * Constructeur d'objets de classe Special
      */
-    public Special(String sName)
+    public Special(String sName, int aBonus)
     {
         super(sName);
+        bonus = aBonus;
     }
 
-    /**
-     * Un exemple de méthode - remplacez ce commentaire par le vôtre
-     *
-     * @param  y   le paramètre de la méthode
-     * @return     la somme de x et de y
-     */
-    public void setPoints()
+    public int getBonus()
     {
-       
+        return bonus;
     }
 }

@@ -1,10 +1,9 @@
 #BlueJ class context
 comment0.target=Special
-comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ Special\ ici.\r\n\r\n\ @author\ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
-comment1.params=sName
-comment1.target=Special(java.lang.String)
+comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ Special\ ici.\r\n\r\n\ @author\ Group\ 8\ -\ Marion\ Guernot\u00E9,\ Dylan\ Mielot,\ Fanny\ Barbe,\ Alix\ Nagot,\ Ambre\ Dumontet,\ Ang\u00E9lique\ Gombert,\ Thibault\ Crouzet\r\n\ @version\ 19/11/2019\r\n
+comment1.params=sName\ aBonus
+comment1.target=Special(java.lang.String,\ int)
 comment1.text=\r\n\ Constructeur\ d'objets\ de\ classe\ Special\r\n
 comment2.params=
-comment2.target=void\ setPoints()
-comment2.text=\r\n\ Un\ exemple\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\r\n\r\n\ @param\ \ y\ \ \ le\ param\u00E8tre\ de\ la\ m\u00E9thode\r\n\ @return\ \ \ \ \ la\ somme\ de\ x\ et\ de\ y\r\n
+comment2.target=int\ getBonus()
 numComments=3
