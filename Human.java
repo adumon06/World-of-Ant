@@ -13,20 +13,20 @@ public class Human extends Character
     /**
      * Constructeur d'objets de classe Human
      */
-    public Human()
+    public Human(String theName)
     {
-        super("Standard");
+        super(theName);
         
     }
 
     /**
-     * Inflic dammage to the life of the StolenAnt
+     * Inflic 25 dammage to the life of the StolenAnt
      * @param thief who represent the Stolen Ant and who will be cruch by the human
      * 
      */
     public void crush(StolenAnt thief)
     {
-        // Insérez votre code ici
         
+        thief.setVp(-25);
     }
 }

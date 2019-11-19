@@ -30,24 +30,51 @@ public class HumanTest
     @Before
     public void setUp()
     {
-        theHuman=new Human();
+        theHuman=new Human("Bob");
+        thief = new StolenAnt("Bob");
     }
     @Test
     public void testNameInValid()
     {
-        assertEquals(theHuman.getName(),"invalid");
+        assertEquals(theHuman.getName(),"");
+        
     }
     @Test
     public void testNameValid()
     {
-        assertEquals(theHuman.getName(),"");
+        assertEquals(theHuman.getName(),"Bob");
+        
     }
     @Test
     public void TestCrush()
-    {   thief = new StolenAnt("");
+    {   
         theHuman.crush(thief);
-        //fail("Not yet implemented");
-        assertEquals(thief.getVp(),100);
+        assertEquals(thief.getVp(),75);
+               
+    }
+    @Test
+    public void TestCrushToDeath()
+    {   
+        theHuman.crush(thief);
+        theHuman.crush(thief);  
+        theHuman.crush(thief);
+        theHuman.crush(thief);
+        assertEquals(thief.getVp(),0);
+        
+        
+    }
+    @Test
+    public void TestCrushBeyondDeath()
+    {   
+        theHuman.crush(thief);
+        theHuman.crush(thief);  
+        theHuman.crush(thief);
+        theHuman.crush(thief);
+        theHuman.crush(thief);
+        
+        assertEquals(thief.getVp(),0);
+        
+        //The Vp can not be a negative
     }
     /**
      * Tears down the test fixture.

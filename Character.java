@@ -16,7 +16,10 @@ public class Character
      */
     public Character(String cName)
     {
-        name = cName;
+        if(cName == null || cName =="")
+            cName = "pax-12";
+        else
+            name = cName;
     }
     
     /**

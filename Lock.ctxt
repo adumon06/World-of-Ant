@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=Lock
-comment0.text=\r\n\ D\u00E9crivez\ votre\ interface\ Lock\ ici.\r\n\r\n\ @author\ \ (votre\ nom)\r\n\ @version\ (un\ num\u00E9ro\ de\ version\ ou\ une\ date)\r\n
-comment1.params=
-comment1.target=void\ unlock()
-comment1.text=\r\n\ Exemple\ d'ent\u00EAte\ de\ m\u00E9thode\ -\ remplacez\ ce\ commentaire\ par\ le\ v\u00F4tre\r\n\r\n\ @param\ \ y\ \ \ \ le\ param\u00E8tre\ de\ cette\ m\u00E9thode\r\n\ @return\ \ \ \ \ \ \ \ le\ r\u00E9sultat\ retourn\u00E9\ par\ exempleDeMethode\r\n
-numComments=2
+comment0.text=\r\n\ The\ Lock\ class\ describe\ if\ a\ door\ or\ a\ chest\ is\ locked\ and\ how\ to\ unlocked\ it.\r\n\r\n\ @author\ \ @author\ \ Crouzet\ G8\r\n\ @version\ 19/11/2019\r\n
+comment1.params=theKey
+comment1.target=Lock(Key)
+comment2.params=aKey
+comment2.target=boolean\ unlock(Key)
+comment2.text=\r\n\ @parameter\ aKey\ of\ type\ Key\r\n\ if\ you\ give\ the\ correct\ key\ it\ will\ unlock\ the\ object\r\n\ else\ return\ an\ error\ (boolean)\r\n\ @return\ \r\n\ true\ \=>\ operation\ was\ done\ succesfluly\ and\ the\ door/chest\ is\ opened\r\n\ false\ \=>\ operation\ failed\ and\ the\ door/chest\ is\ not\ opened\r\n
+comment3.params=
+comment3.target=boolean\ getIsLocked()
+numComments=4

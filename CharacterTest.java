@@ -30,17 +30,22 @@ public class CharacterTest
     @Before
     public void setUp()
     {
-        charac=new Character("");
+        charac=new Character("Patric");
     }
     @Test
     public void testNameInValid()
     {
-        assertEquals(charac.getName(),"test");
+        assertEquals(charac.getName(),"");
     }
     @Test
     public void testNameValid()
     {
-        assertEquals(charac.getName(),"");
+        assertEquals(charac.getName(),"Patric");
+    }
+    @Test
+    public void testNameEmptyValid()
+    {
+        assertEquals(charac.getName(),"pax-12");
     }
     /**
      * Tears down the test fixture.
